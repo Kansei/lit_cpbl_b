@@ -14,8 +14,10 @@
 		DA72EC62217B444C008053E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA72EC60217B444C008053E2 /* LaunchScreen.storyboard */; };
 		DA72EC6A217B45FB008053E2 /* PostView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA72EC69217B45FB008053E2 /* PostView.storyboard */; };
 		DA72EC6C217B46DF008053E2 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA72EC6B217B46DF008053E2 /* PostViewController.swift */; };
-		DA72EC6E217B4791008053E2 /* ListView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA72EC6D217B4791008053E2 /* ListView.storyboard */; };
-		DA72EC70217B47A9008053E2 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA72EC6F217B47A9008053E2 /* ListViewController.swift */; };
+		DA72EC6E217B4791008053E2 /* InfoListView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA72EC6D217B4791008053E2 /* InfoListView.storyboard */; };
+		DA72EC73217B5409008053E2 /* InfoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA72EC71217B5409008053E2 /* InfoListViewController.swift */; };
+		DA72EC77217B618F008053E2 /* InfoListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA72EC75217B618F008053E2 /* InfoListTableViewCell.swift */; };
+		DA72EC78217B618F008053E2 /* InfoListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA72EC76217B618F008053E2 /* InfoListTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +30,10 @@
 		DA72EC63217B444C008053E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA72EC69217B45FB008053E2 /* PostView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PostView.storyboard; sourceTree = "<group>"; };
 		DA72EC6B217B46DF008053E2 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
-		DA72EC6D217B4791008053E2 /* ListView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ListView.storyboard; sourceTree = "<group>"; };
-		DA72EC6F217B47A9008053E2 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		DA72EC6D217B4791008053E2 /* InfoListView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InfoListView.storyboard; sourceTree = "<group>"; };
+		DA72EC71217B5409008053E2 /* InfoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoListViewController.swift; sourceTree = "<group>"; };
+		DA72EC75217B618F008053E2 /* InfoListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoListTableViewCell.swift; sourceTree = "<group>"; };
+		DA72EC76217B618F008053E2 /* InfoListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoListTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +70,10 @@
 				DA72EC59217B4449008053E2 /* ViewController.swift */,
 				DA72EC5B217B4449008053E2 /* Main.storyboard */,
 				DA72EC69217B45FB008053E2 /* PostView.storyboard */,
-				DA72EC6F217B47A9008053E2 /* ListViewController.swift */,
-				DA72EC6D217B4791008053E2 /* ListView.storyboard */,
+				DA72EC71217B5409008053E2 /* InfoListViewController.swift */,
+				DA72EC75217B618F008053E2 /* InfoListTableViewCell.swift */,
+				DA72EC76217B618F008053E2 /* InfoListTableViewCell.xib */,
+				DA72EC6D217B4791008053E2 /* InfoListView.storyboard */,
 				DA72EC6B217B46DF008053E2 /* PostViewController.swift */,
 				DA72EC5E217B444C008053E2 /* Assets.xcassets */,
 				DA72EC60217B444C008053E2 /* LaunchScreen.storyboard */,
@@ -136,9 +142,10 @@
 			files = (
 				DA72EC62217B444C008053E2 /* LaunchScreen.storyboard in Resources */,
 				DA72EC5F217B444C008053E2 /* Assets.xcassets in Resources */,
-				DA72EC6E217B4791008053E2 /* ListView.storyboard in Resources */,
+				DA72EC6E217B4791008053E2 /* InfoListView.storyboard in Resources */,
 				DA72EC5D217B4449008053E2 /* Main.storyboard in Resources */,
 				DA72EC6A217B45FB008053E2 /* PostView.storyboard in Resources */,
+				DA72EC78217B618F008053E2 /* InfoListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,9 +156,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA72EC73217B5409008053E2 /* InfoListViewController.swift in Sources */,
 				DA72EC6C217B46DF008053E2 /* PostViewController.swift in Sources */,
 				DA72EC5A217B4449008053E2 /* ViewController.swift in Sources */,
-				DA72EC70217B47A9008053E2 /* ListViewController.swift in Sources */,
+				DA72EC77217B618F008053E2 /* InfoListTableViewCell.swift in Sources */,
 				DA72EC58217B4449008053E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
