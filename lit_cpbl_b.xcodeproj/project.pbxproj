@@ -18,6 +18,8 @@
 		DA72EC73217B5409008053E2 /* InfoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA72EC71217B5409008053E2 /* InfoListViewController.swift */; };
 		DA72EC77217B618F008053E2 /* InfoListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA72EC75217B618F008053E2 /* InfoListTableViewCell.swift */; };
 		DA72EC78217B618F008053E2 /* InfoListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA72EC76217B618F008053E2 /* InfoListTableViewCell.xib */; };
+		DA72EC7A217B6A4D008053E2 /* InfoDetailView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA72EC79217B6A4D008053E2 /* InfoDetailView.storyboard */; };
+		DA72EC7C217B6A6C008053E2 /* InfoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA72EC7B217B6A6C008053E2 /* InfoDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		DA72EC71217B5409008053E2 /* InfoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoListViewController.swift; sourceTree = "<group>"; };
 		DA72EC75217B618F008053E2 /* InfoListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoListTableViewCell.swift; sourceTree = "<group>"; };
 		DA72EC76217B618F008053E2 /* InfoListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoListTableViewCell.xib; sourceTree = "<group>"; };
+		DA72EC79217B6A4D008053E2 /* InfoDetailView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InfoDetailView.storyboard; sourceTree = "<group>"; };
+		DA72EC7B217B6A6C008053E2 /* InfoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 				DA72EC75217B618F008053E2 /* InfoListTableViewCell.swift */,
 				DA72EC76217B618F008053E2 /* InfoListTableViewCell.xib */,
 				DA72EC6D217B4791008053E2 /* InfoListView.storyboard */,
+				DA72EC79217B6A4D008053E2 /* InfoDetailView.storyboard */,
+				DA72EC7B217B6A6C008053E2 /* InfoDetailViewController.swift */,
 				DA72EC6B217B46DF008053E2 /* PostViewController.swift */,
 				DA72EC5E217B444C008053E2 /* Assets.xcassets */,
 				DA72EC60217B444C008053E2 /* LaunchScreen.storyboard */,
@@ -141,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA72EC62217B444C008053E2 /* LaunchScreen.storyboard in Resources */,
+				DA72EC7A217B6A4D008053E2 /* InfoDetailView.storyboard in Resources */,
 				DA72EC5F217B444C008053E2 /* Assets.xcassets in Resources */,
 				DA72EC6E217B4791008053E2 /* InfoListView.storyboard in Resources */,
 				DA72EC5D217B4449008053E2 /* Main.storyboard in Resources */,
@@ -159,6 +166,7 @@
 				DA72EC73217B5409008053E2 /* InfoListViewController.swift in Sources */,
 				DA72EC6C217B46DF008053E2 /* PostViewController.swift in Sources */,
 				DA72EC5A217B4449008053E2 /* ViewController.swift in Sources */,
+				DA72EC7C217B6A6C008053E2 /* InfoDetailViewController.swift in Sources */,
 				DA72EC77217B618F008053E2 /* InfoListTableViewCell.swift in Sources */,
 				DA72EC58217B4449008053E2 /* AppDelegate.swift in Sources */,
 			);
