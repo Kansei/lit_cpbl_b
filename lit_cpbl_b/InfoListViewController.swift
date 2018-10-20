@@ -1,5 +1,5 @@
 //
-//  ListViewController.swift
+//  InfoListViewController.swift
 //  lit_cpbl_b
 //
 //  Created by 小神寛晴 on 2018/10/20.
@@ -8,14 +8,14 @@
 
 import UIKit
 
-class ListViewController: UIViewController {
+class InfoListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
+
 
     /*
     // MARK: - Navigation
