@@ -1,0 +1,16 @@
+PODS:
+  - BottomPopup (0.3.1)
+
+DEPENDENCIES:
+  - BottomPopup
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - BottomPopup
+
+SPEC CHECKSUMS:
+  BottomPopup: 1031c8937466ca350d68e293f1d8e463e758e150
+
+PODFILE CHECKSUM: d49c740768e723671037ad6751d42c28fed075d1
+
+COCOAPODS: 1.5.0
