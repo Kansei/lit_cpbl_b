@@ -12,6 +12,8 @@
 		DA72EC5D217B4449008053E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA72EC5B217B4449008053E2 /* Main.storyboard */; };
 		DA72EC5F217B444C008053E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA72EC5E217B444C008053E2 /* Assets.xcassets */; };
 		DA72EC62217B444C008053E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA72EC60217B444C008053E2 /* LaunchScreen.storyboard */; };
+		DA72EC6A217B45FB008053E2 /* PostView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA72EC69217B45FB008053E2 /* PostView.storyboard */; };
+		DA72EC6C217B46DF008053E2 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA72EC6B217B46DF008053E2 /* PostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DA72EC5E217B444C008053E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA72EC61217B444C008053E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA72EC63217B444C008053E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA72EC69217B45FB008053E2 /* PostView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PostView.storyboard; sourceTree = "<group>"; };
+		DA72EC6B217B46DF008053E2 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				DA72EC57217B4449008053E2 /* AppDelegate.swift */,
 				DA72EC59217B4449008053E2 /* ViewController.swift */,
 				DA72EC5B217B4449008053E2 /* Main.storyboard */,
+				DA72EC69217B45FB008053E2 /* PostView.storyboard */,
+				DA72EC6B217B46DF008053E2 /* PostViewController.swift */,
 				DA72EC5E217B444C008053E2 /* Assets.xcassets */,
 				DA72EC60217B444C008053E2 /* LaunchScreen.storyboard */,
 				DA72EC63217B444C008053E2 /* Info.plist */,
@@ -125,6 +131,7 @@
 				DA72EC62217B444C008053E2 /* LaunchScreen.storyboard in Resources */,
 				DA72EC5F217B444C008053E2 /* Assets.xcassets in Resources */,
 				DA72EC5D217B4449008053E2 /* Main.storyboard in Resources */,
+				DA72EC6A217B45FB008053E2 /* PostView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA72EC6C217B46DF008053E2 /* PostViewController.swift in Sources */,
 				DA72EC5A217B4449008053E2 /* ViewController.swift in Sources */,
 				DA72EC58217B4449008053E2 /* AppDelegate.swift in Sources */,
 			);
