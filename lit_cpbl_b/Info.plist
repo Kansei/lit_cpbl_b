@@ -41,5 +41,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>* Privacy - Location When In Use Usage Description</key>
+	<string></string>
+	<key>* Privacy - Location Always Usage Description</key>
+	<string></string>
 </dict>
 </plist>

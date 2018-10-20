@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		876E816A217B50AC003F5B34 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876E8169217B50AC003F5B34 /* MapKit.framework */; };
+		876E816C217B5B73003F5B34 /* iizukaMKPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876E816B217B5B73003F5B34 /* iizukaMKPointAnnotation.swift */; };
 		DA72EC58217B4449008053E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA72EC57217B4449008053E2 /* AppDelegate.swift */; };
 		DA72EC5A217B4449008053E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA72EC59217B4449008053E2 /* ViewController.swift */; };
 		DA72EC5D217B4449008053E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA72EC5B217B4449008053E2 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		876E8169217B50AC003F5B34 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		876E816B217B5B73003F5B34 /* iizukaMKPointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iizukaMKPointAnnotation.swift; sourceTree = "<group>"; };
 		DA72EC54217B4449008053E2 /* lit_cpbl_b.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lit_cpbl_b.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA72EC57217B4449008053E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA72EC59217B4449008053E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,17 +41,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				876E816A217B50AC003F5B34 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		876E8168217B50AC003F5B34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				876E8169217B50AC003F5B34 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DA72EC4B217B4449008053E2 = {
 			isa = PBXGroup;
 			children = (
 				DA72EC56217B4449008053E2 /* lit_cpbl_b */,
 				DA72EC55217B4449008053E2 /* Products */,
+				876E8168217B50AC003F5B34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +78,7 @@
 			children = (
 				DA72EC57217B4449008053E2 /* AppDelegate.swift */,
 				DA72EC59217B4449008053E2 /* ViewController.swift */,
+				876E816B217B5B73003F5B34 /* iizukaMKPointAnnotation.swift */,
 				DA72EC5B217B4449008053E2 /* Main.storyboard */,
 				DA72EC69217B45FB008053E2 /* PostView.storyboard */,
 				DA72EC6F217B47A9008053E2 /* ListViewController.swift */,
@@ -149,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				876E816C217B5B73003F5B34 /* iizukaMKPointAnnotation.swift in Sources */,
 				DA72EC6C217B46DF008053E2 /* PostViewController.swift in Sources */,
 				DA72EC5A217B4449008053E2 /* ViewController.swift in Sources */,
 				DA72EC70217B47A9008053E2 /* ListViewController.swift in Sources */,
