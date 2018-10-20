@@ -16,13 +16,54 @@
                     <view key="view" contentMode="scaleToFill" id="h5b-nq-gk8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8df-s8-vMe">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LhI-t8-6IP">
+                                <rect key="frame" x="0.0" y="374" width="375" height="181"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="115" translatesAutoresizingMaskIntoConstraints="NO" id="ZCu-88-l8b">
+                                <rect key="frame" x="66" y="155" width="243" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B71-bp-KR8">
+                                        <rect key="frame" x="0.0" y="0.0" width="64" height="64"/>
+                                        <state key="normal" image="camera"/>
+                                        <connections>
+                                            <action selector="camera:" destination="wC4-zf-Bzs" eventType="touchUpInside" id="Ouv-yr-eZK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Lk-m3-K5c">
+                                        <rect key="frame" x="179" y="0.0" width="64" height="64"/>
+                                        <state key="normal" image="library"/>
+                                        <connections>
+                                            <action selector="selectPhoto:" destination="wC4-zf-Bzs" eventType="touchUpInside" id="AVA-Xi-KmW"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="75F-gJ-aRO"/>
                     </view>
+                    <connections>
+                        <outlet property="photoView" destination="8df-s8-vMe" id="w7q-O4-LAl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LYP-2M-u3v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="250" y="-19"/>
+            <point key="canvasLocation" x="248.80000000000001" y="-19.340329835082461"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="camera" width="64" height="64"/>
+        <image name="library" width="64" height="64"/>
+    </resources>
 </document>
