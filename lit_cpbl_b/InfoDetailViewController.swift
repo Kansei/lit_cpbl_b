@@ -9,11 +9,17 @@
 import UIKit
 
 class InfoDetailViewController: UIViewController {
+    
+    @IBOutlet weak var CommentTableView: UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        CommentTableView.delegate = self
+        CommentTableView.dataSource = self
+        
+        let nib = UINib(nibName: "CommentTableViewCell", bundle: nil)
+        CommentTableView.register(nib, forCellReuseIdentifier: "CommentTableViewCell")
     }
     
 
@@ -27,4 +33,20 @@ class InfoDetailViewController: UIViewController {
     }
     */
 
+}
+
+extension InfoDetailViewController: UITableViewDelegate, UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell =  tableView.dequeueReusableCell(withIdentifier: "CommentTableViewCell") as! CommentTableViewCell
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 60
+    }
 }

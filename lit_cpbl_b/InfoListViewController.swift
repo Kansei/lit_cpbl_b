@@ -50,4 +50,8 @@ extension InfoListViewController: UITableViewDelegate, UITableViewDataSource {
         return 80
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "toInfoDetailViewController", sender: nil)
+        
+    }
 }

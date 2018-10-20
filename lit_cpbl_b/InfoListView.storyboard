@@ -33,11 +33,20 @@
                     </view>
                     <connections>
                         <outlet property="InfoListTableView" destination="coP-Iz-Zrr" id="mdT-1I-q9E"/>
+                        <segue destination="MPc-O2-r8O" kind="show" identifier="toInfoDetailViewController" id="1aM-2U-h7r"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qz2-iD-M4V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-301" y="24"/>
+        </scene>
+        <!--InfoDetailView-->
+        <scene sceneID="MDE-FB-IPV">
+            <objects>
+                <viewControllerPlaceholder storyboardName="InfoDetailView" id="MPc-O2-r8O" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SuR-Hs-mwg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="376" y="-41"/>
         </scene>
     </scenes>
 </document>
