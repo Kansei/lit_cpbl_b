@@ -7,41 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01A63D30A29F29C75429E50A7D2DAD54 /* BottomPopupPresentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62437023298ADB483787298130056D7 /* BottomPopupPresentAnimator.swift */; };
-		06FA7639CEACFA020879BC9AAFC8A7F2 /* BottomPopupDismissInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A86FBBC55498052955DAB9FC0E3F0C5 /* BottomPopupDismissInteractionController.swift */; };
-		193C28CCF93E0CCEFEEF733A2992BB1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		358CFD385AEB582B95973D3936610AD6 /* RollingPitTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF219F2C81C9DDEDFDE4548B8FE4864 /* RollingPitTabBar.swift */; };
-		38068A86926C086470C9FFEE407D1E72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		448AAE750C7A1F6094B965D758BEDEA0 /* BottomPopup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31F372CDA4CD71948C80291A748CC76E /* BottomPopup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4DB4B57BA3D314CAFCB7EF0F95C88728 /* BottomPopupTransitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6E996D01F527DB631AD0D861C6D41 /* BottomPopupTransitionHandler.swift */; };
-		660F5E3F9BD603B47C3CEEF0D9F7A68E /* BottomPopupConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FE22D7F071A97BE266D4EE306D0CB6 /* BottomPopupConstants.swift */; };
-		69D2D1743223EDEECFC88E61DEBFCB09 /* BottomPopup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B65D724304D07B6843F7AD0A251359B /* BottomPopup-dummy.m */; };
-		80324A9949DAB8FF43543CC80111377C /* BottomPopupPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61416E06DDFF080499D298F64011EFF6 /* BottomPopupPresentationController.swift */; };
-		AA2344FF5502B043630DAF06D9EC8802 /* VBRRollingPit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45629D6A37DEE7B3564B01117120DE75 /* VBRRollingPit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF08B7E5B8946E4110E327DD73849D3C /* BottomPopupNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29CD8389C0BB5AD202B9E315DB19984 /* BottomPopupNavigationController.swift */; };
-		CE01A7BE89118C03E238A58B13C92E04 /* VBRRollingPit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E2C1D7D973F25B94124B71033A73D /* VBRRollingPit-dummy.m */; };
-		DA0E7DC0F9162C342AACBAA5398D5DEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		E2D17F966F8CAAEACF0A987CB91484EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		EA7374975210B173F5F0E09069823C58 /* Pods-lit_cpbl_b-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E86944C42AC9F8F18A1CE3AE68093 /* Pods-lit_cpbl_b-dummy.m */; };
-		EE3335EB71BEE55D394EB61B9F640D67 /* BottomPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47997B56275C48C34C4E95A922B705A /* BottomPopupViewController.swift */; };
-		F081C25F0318076B7E50895D163A3B5D /* BottomPopupDismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9572A0FE48011C15B54E6431439ACB98 /* BottomPopupDismissAnimator.swift */; };
-		F57830DEA87FB32A4BF6C17933FBEB37 /* Pods-lit_cpbl_b-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEB63F646304258F49B58B5529D56FD9 /* Pods-lit_cpbl_b-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		126ED86D3A0052CE8B86FC025024E8CE /* BottomPopupNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29CD8389C0BB5AD202B9E315DB19984 /* BottomPopupNavigationController.swift */; };
+		23F433883257C92CA0CFC431E1196CC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		2AA1CEA8D089E1DD1DC4A7164CB38CE6 /* VBRRollingPit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E2C1D7D973F25B94124B71033A73D /* VBRRollingPit-dummy.m */; };
+		2F50A55D57AAB56FFC446DB6EED61759 /* BottomPopupPresentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62437023298ADB483787298130056D7 /* BottomPopupPresentAnimator.swift */; };
+		3B2B6C564D087F3A7862E1CEA677CD71 /* Pods-lit_cpbl_b-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEB63F646304258F49B58B5529D56FD9 /* Pods-lit_cpbl_b-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50322BD03D5E3C1B6B06174982F7DBC1 /* BottomPopupDismissInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A86FBBC55498052955DAB9FC0E3F0C5 /* BottomPopupDismissInteractionController.swift */; };
+		5094917BEA93108D97CDF744BF6E460F /* BottomPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47997B56275C48C34C4E95A922B705A /* BottomPopupViewController.swift */; };
+		61DFCAAB6F9A71BB0B7D55D343573619 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		7AAB571EBDB76626F21F2D9B19D8CEA1 /* BottomPopupDismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9572A0FE48011C15B54E6431439ACB98 /* BottomPopupDismissAnimator.swift */; };
+		7B737933FD891107A684002347C04935 /* Pods-lit_cpbl_b-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E86944C42AC9F8F18A1CE3AE68093 /* Pods-lit_cpbl_b-dummy.m */; };
+		7E3F7200EC26E241313B1F89E36B7406 /* VBRRollingPit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45629D6A37DEE7B3564B01117120DE75 /* VBRRollingPit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C4B2D04DE93EA529D970D92302E4D0C /* BottomPopupPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61416E06DDFF080499D298F64011EFF6 /* BottomPopupPresentationController.swift */; };
+		C2C45D0BC377EB8881EDBADB9FB50E1A /* BottomPopup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31F372CDA4CD71948C80291A748CC76E /* BottomPopup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBEBA95AEEA9F5E5D7429B4721F7DA36 /* BottomPopupTransitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6E996D01F527DB631AD0D861C6D41 /* BottomPopupTransitionHandler.swift */; };
+		CE19DE5D4FB35275E8BD1052ABF5FFA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		CF7345F61C75DCF4D6F9F55C164FFC3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E404AA6957590324067E330E0EC533 /* UIKit.framework */; };
+		D6AF527E1365FFE5010006C6E5AC8B80 /* BottomPopupConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FE22D7F071A97BE266D4EE306D0CB6 /* BottomPopupConstants.swift */; };
+		F077F9C5F24560673825706973D548CC /* RollingPitTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF219F2C81C9DDEDFDE4548B8FE4864 /* RollingPitTabBar.swift */; };
+		F60827A4FC5C4A65626B4BC51A71E2D6 /* BottomPopup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B65D724304D07B6843F7AD0A251359B /* BottomPopup-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CD1A6185CD0C881164EB325042C18C8B /* PBXContainerItemProxy */ = {
+		03534D3D2F53A8F5805B1EC5FD562380 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3EB6FB6C2F03CD24B99D645CE28AA564;
-			remoteInfo = VBRRollingPit;
-		};
-		E55AE4AFEC9DF431C07F673A6CA39157 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5F370691BE733848174A4B1F260CCF89;
+			remoteGlobalIDString = 54D7C79E513DA326E6C461FB648FEBD1;
 			remoteInfo = BottomPopup;
+		};
+		1D511D0470B777FC960C9786260055B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05D2804E963524AFA778CB4F6B314CC0;
+			remoteInfo = VBRRollingPit;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -52,6 +52,7 @@
 		132D58770B15D5CE3853BE1AA32038C5 /* Pods-lit_cpbl_b-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lit_cpbl_b-acknowledgements.plist"; sourceTree = "<group>"; };
 		17B466D8F33A43C3149274C14EC8049A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27B0F8E7255D68818A1A68FB408A7372 /* VBRRollingPit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VBRRollingPit.framework; path = VBRRollingPit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		31F372CDA4CD71948C80291A748CC76E /* BottomPopup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BottomPopup-umbrella.h"; sourceTree = "<group>"; };
 		3B65D724304D07B6843F7AD0A251359B /* BottomPopup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BottomPopup-dummy.m"; sourceTree = "<group>"; };
 		43947579AC2D126EA2B9B4717CCCF3A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,6 +63,7 @@
 		5A86FBBC55498052955DAB9FC0E3F0C5 /* BottomPopupDismissInteractionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BottomPopupDismissInteractionController.swift; path = BottomPopup/BottomPopupController/BottomPopupDismissInteractionController.swift; sourceTree = "<group>"; };
 		61416E06DDFF080499D298F64011EFF6 /* BottomPopupPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BottomPopupPresentationController.swift; path = BottomPopup/BottomPopupController/BottomPopupPresentationController.swift; sourceTree = "<group>"; };
 		713F9FE8EA0468164C497159E1498E80 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E404AA6957590324067E330E0EC533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		78FEE6501459904C2D93A08DEA47B56E /* Pods-lit_cpbl_b-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-lit_cpbl_b-resources.sh"; sourceTree = "<group>"; };
 		7D17665C1F74E191B0F8DEEA42900B31 /* Pods_lit_cpbl_b.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_lit_cpbl_b.framework; path = "Pods-lit_cpbl_b.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FC11B8F8ED9FA9161988A22B2357766 /* Pods-lit_cpbl_b-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-lit_cpbl_b-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -70,7 +72,6 @@
 		9EA454B6763F43AB0122ACD2FA850990 /* VBRRollingPit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VBRRollingPit-prefix.pch"; sourceTree = "<group>"; };
 		AEB63F646304258F49B58B5529D56FD9 /* Pods-lit_cpbl_b-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-lit_cpbl_b-umbrella.h"; sourceTree = "<group>"; };
 		B48E86944C42AC9F8F18A1CE3AE68093 /* Pods-lit_cpbl_b-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-lit_cpbl_b-dummy.m"; sourceTree = "<group>"; };
-		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C47997B56275C48C34C4E95A922B705A /* BottomPopupViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BottomPopupViewController.swift; path = BottomPopup/BottomPopupController/BottomPopupViewController.swift; sourceTree = "<group>"; };
 		C63F9B9B79F080D208BEE66369DA2F91 /* BottomPopup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BottomPopup.modulemap; sourceTree = "<group>"; };
 		CE51E26593765A4E72E87EE2C2BADD33 /* VBRRollingPit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VBRRollingPit.xcconfig; sourceTree = "<group>"; };
@@ -78,7 +79,6 @@
 		D29CD8389C0BB5AD202B9E315DB19984 /* BottomPopupNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BottomPopupNavigationController.swift; path = BottomPopup/BottomPopupController/BottomPopupNavigationController.swift; sourceTree = "<group>"; };
 		D4FE22D7F071A97BE266D4EE306D0CB6 /* BottomPopupConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BottomPopupConstants.swift; path = BottomPopup/BottomPopupController/BottomPopupConstants.swift; sourceTree = "<group>"; };
 		D62437023298ADB483787298130056D7 /* BottomPopupPresentAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BottomPopupPresentAnimator.swift; path = BottomPopup/BottomPopupController/BottomPopupPresentAnimator.swift; sourceTree = "<group>"; };
-		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DFFA1F5B020BA9C150554BF3834D8C39 /* Pods-lit_cpbl_b.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-lit_cpbl_b.modulemap"; sourceTree = "<group>"; };
 		E0FCFB4F7CBB18852E9FFBA404BDFBB3 /* VBRRollingPit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VBRRollingPit.modulemap; sourceTree = "<group>"; };
 		EE4E2C1D7D973F25B94124B71033A73D /* VBRRollingPit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VBRRollingPit-dummy.m"; sourceTree = "<group>"; };
@@ -86,34 +86,43 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		060FE72C381A2F9EBF725592BD2E62A8 /* Frameworks */ = {
+		B1CC52563829F7D1BC4EF1178F768DA4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2D17F966F8CAAEACF0A987CB91484EA /* Foundation.framework in Frameworks */,
-				193C28CCF93E0CCEFEEF733A2992BB1C /* UIKit.framework in Frameworks */,
+				CE19DE5D4FB35275E8BD1052ABF5FFA0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22A3AC12672B3C46ACE499E3F5456FBF /* Frameworks */ = {
+		B4320CC9D61ED8F54BF7F866D3D7C76E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38068A86926C086470C9FFEE407D1E72 /* Foundation.framework in Frameworks */,
+				61DFCAAB6F9A71BB0B7D55D343573619 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		381C20C6CC28A79C8CB30317A5A6D426 /* Frameworks */ = {
+		DF4B2229F86EEFAA513AE0BDF2B38AEE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA0E7DC0F9162C342AACBAA5398D5DEE /* Foundation.framework in Frameworks */,
+				23F433883257C92CA0CFC431E1196CC7 /* Foundation.framework in Frameworks */,
+				CF7345F61C75DCF4D6F9F55C164FFC3E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06CDD10DE71306278CF89108B3036DFD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */,
+				74E404AA6957590324067E330E0EC533 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		195201419D53C0F4CB60E5DC9A43BA8A /* BottomPopup */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,18 +160,9 @@
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+				06CDD10DE71306278CF89108B3036DFD /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
-				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		6015701CF7E0012CE4D94FAE44B00B23 /* VBRRollingPit */ = {
@@ -245,40 +245,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		381A0CDF8A7A1622807F37B9405155C9 /* Headers */ = {
+		829F2A9F0C9024D1A2E7108DB9CD2C9C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA2344FF5502B043630DAF06D9EC8802 /* VBRRollingPit-umbrella.h in Headers */,
+				3B2B6C564D087F3A7862E1CEA677CD71 /* Pods-lit_cpbl_b-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3CE8883EB8621A5A3619A32D94A23583 /* Headers */ = {
+		E200D13C863F9F6853B10E21A48FF2E4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				448AAE750C7A1F6094B965D758BEDEA0 /* BottomPopup-umbrella.h in Headers */,
+				C2C45D0BC377EB8881EDBADB9FB50E1A /* BottomPopup-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF924D10FCF5311AA1663F046240A0C0 /* Headers */ = {
+		FEC2F122CDC0F4EBF66AE893995D5DFD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F57830DEA87FB32A4BF6C17933FBEB37 /* Pods-lit_cpbl_b-umbrella.h in Headers */,
+				7E3F7200EC26E241313B1F89E36B7406 /* VBRRollingPit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3EB6FB6C2F03CD24B99D645CE28AA564 /* VBRRollingPit */ = {
+		05D2804E963524AFA778CB4F6B314CC0 /* VBRRollingPit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97347FF5873CE720B3B66C823F455D94 /* Build configuration list for PBXNativeTarget "VBRRollingPit" */;
+			buildConfigurationList = 5CF0B11FED23FC58B12425BD91DA1E7C /* Build configuration list for PBXNativeTarget "VBRRollingPit" */;
 			buildPhases = (
-				58A6CA588B6DE57A93552FE31D4F6AC4 /* Sources */,
-				22A3AC12672B3C46ACE499E3F5456FBF /* Frameworks */,
-				381A0CDF8A7A1622807F37B9405155C9 /* Headers */,
+				FEC2F122CDC0F4EBF66AE893995D5DFD /* Headers */,
+				9328162C9BD7D2172FF4456F2ABF3969 /* Sources */,
+				B4320CC9D61ED8F54BF7F866D3D7C76E /* Frameworks */,
+				299FC71A7981B01BF22EFCF93B68812C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -289,13 +290,34 @@
 			productReference = 27B0F8E7255D68818A1A68FB408A7372 /* VBRRollingPit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5F370691BE733848174A4B1F260CCF89 /* BottomPopup */ = {
+		47FECD8356775A75FCB5B0EF77C34845 /* Pods-lit_cpbl_b */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DED46F3EE2D69ADDD005F33F440FEC0 /* Build configuration list for PBXNativeTarget "BottomPopup" */;
+			buildConfigurationList = BD5CFF013FFB59AB6B6450A9F316309D /* Build configuration list for PBXNativeTarget "Pods-lit_cpbl_b" */;
 			buildPhases = (
-				CAD36F67B3BB625DF169EBFABC8E3889 /* Sources */,
-				060FE72C381A2F9EBF725592BD2E62A8 /* Frameworks */,
-				3CE8883EB8621A5A3619A32D94A23583 /* Headers */,
+				829F2A9F0C9024D1A2E7108DB9CD2C9C /* Headers */,
+				2310A007D4375F1A75E2FE0FF6DFD54C /* Sources */,
+				B1CC52563829F7D1BC4EF1178F768DA4 /* Frameworks */,
+				330507980EF7C6421DF918B89323384C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E65523C3E573D6428C283972B8E37FF /* PBXTargetDependency */,
+				F64B1499CFB09FB600B089CEBCB9D10C /* PBXTargetDependency */,
+			);
+			name = "Pods-lit_cpbl_b";
+			productName = "Pods-lit_cpbl_b";
+			productReference = 7D17665C1F74E191B0F8DEEA42900B31 /* Pods_lit_cpbl_b.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		54D7C79E513DA326E6C461FB648FEBD1 /* BottomPopup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F550071F4A8072D92F4C002E60AF327 /* Build configuration list for PBXNativeTarget "BottomPopup" */;
+			buildPhases = (
+				E200D13C863F9F6853B10E21A48FF2E4 /* Headers */,
+				D7B666F90A7F283209BBD83D88D5CD80 /* Sources */,
+				DF4B2229F86EEFAA513AE0BDF2B38AEE /* Frameworks */,
+				0691765AE823B023E1DC7F3EC03FA830 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -304,25 +326,6 @@
 			name = BottomPopup;
 			productName = BottomPopup;
 			productReference = 08AD1211D7269BD2F1E0358742C5176C /* BottomPopup.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E167A49FFE36EE3B9C489ABC1CE8C8D7 /* Pods-lit_cpbl_b */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 39ACF22AF18C57164A6B5D3B2F42F0A9 /* Build configuration list for PBXNativeTarget "Pods-lit_cpbl_b" */;
-			buildPhases = (
-				01B4EFF74CFF7779E09C89206E227B5B /* Sources */,
-				381C20C6CC28A79C8CB30317A5A6D426 /* Frameworks */,
-				EF924D10FCF5311AA1663F046240A0C0 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3CC4D345DB0D3721B6FF93621B79FFB2 /* PBXTargetDependency */,
-				22A5EDD66345E3FC4F8F610D285C6EDD /* PBXTargetDependency */,
-			);
-			name = "Pods-lit_cpbl_b";
-			productName = "Pods-lit_cpbl_b";
-			productReference = 7D17665C1F74E191B0F8DEEA42900B31 /* Pods_lit_cpbl_b.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -346,66 +349,90 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5F370691BE733848174A4B1F260CCF89 /* BottomPopup */,
-				E167A49FFE36EE3B9C489ABC1CE8C8D7 /* Pods-lit_cpbl_b */,
-				3EB6FB6C2F03CD24B99D645CE28AA564 /* VBRRollingPit */,
+				54D7C79E513DA326E6C461FB648FEBD1 /* BottomPopup */,
+				47FECD8356775A75FCB5B0EF77C34845 /* Pods-lit_cpbl_b */,
+				05D2804E963524AFA778CB4F6B314CC0 /* VBRRollingPit */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		0691765AE823B023E1DC7F3EC03FA830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		299FC71A7981B01BF22EFCF93B68812C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330507980EF7C6421DF918B89323384C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		01B4EFF74CFF7779E09C89206E227B5B /* Sources */ = {
+		2310A007D4375F1A75E2FE0FF6DFD54C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA7374975210B173F5F0E09069823C58 /* Pods-lit_cpbl_b-dummy.m in Sources */,
+				7B737933FD891107A684002347C04935 /* Pods-lit_cpbl_b-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58A6CA588B6DE57A93552FE31D4F6AC4 /* Sources */ = {
+		9328162C9BD7D2172FF4456F2ABF3969 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				358CFD385AEB582B95973D3936610AD6 /* RollingPitTabBar.swift in Sources */,
-				CE01A7BE89118C03E238A58B13C92E04 /* VBRRollingPit-dummy.m in Sources */,
+				F077F9C5F24560673825706973D548CC /* RollingPitTabBar.swift in Sources */,
+				2AA1CEA8D089E1DD1DC4A7164CB38CE6 /* VBRRollingPit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAD36F67B3BB625DF169EBFABC8E3889 /* Sources */ = {
+		D7B666F90A7F283209BBD83D88D5CD80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69D2D1743223EDEECFC88E61DEBFCB09 /* BottomPopup-dummy.m in Sources */,
-				660F5E3F9BD603B47C3CEEF0D9F7A68E /* BottomPopupConstants.swift in Sources */,
-				F081C25F0318076B7E50895D163A3B5D /* BottomPopupDismissAnimator.swift in Sources */,
-				06FA7639CEACFA020879BC9AAFC8A7F2 /* BottomPopupDismissInteractionController.swift in Sources */,
-				AF08B7E5B8946E4110E327DD73849D3C /* BottomPopupNavigationController.swift in Sources */,
-				01A63D30A29F29C75429E50A7D2DAD54 /* BottomPopupPresentAnimator.swift in Sources */,
-				80324A9949DAB8FF43543CC80111377C /* BottomPopupPresentationController.swift in Sources */,
-				4DB4B57BA3D314CAFCB7EF0F95C88728 /* BottomPopupTransitionHandler.swift in Sources */,
-				EE3335EB71BEE55D394EB61B9F640D67 /* BottomPopupViewController.swift in Sources */,
+				F60827A4FC5C4A65626B4BC51A71E2D6 /* BottomPopup-dummy.m in Sources */,
+				D6AF527E1365FFE5010006C6E5AC8B80 /* BottomPopupConstants.swift in Sources */,
+				7AAB571EBDB76626F21F2D9B19D8CEA1 /* BottomPopupDismissAnimator.swift in Sources */,
+				50322BD03D5E3C1B6B06174982F7DBC1 /* BottomPopupDismissInteractionController.swift in Sources */,
+				126ED86D3A0052CE8B86FC025024E8CE /* BottomPopupNavigationController.swift in Sources */,
+				2F50A55D57AAB56FFC446DB6EED61759 /* BottomPopupPresentAnimator.swift in Sources */,
+				8C4B2D04DE93EA529D970D92302E4D0C /* BottomPopupPresentationController.swift in Sources */,
+				CBEBA95AEEA9F5E5D7429B4721F7DA36 /* BottomPopupTransitionHandler.swift in Sources */,
+				5094917BEA93108D97CDF744BF6E460F /* BottomPopupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		22A5EDD66345E3FC4F8F610D285C6EDD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = VBRRollingPit;
-			target = 3EB6FB6C2F03CD24B99D645CE28AA564 /* VBRRollingPit */;
-			targetProxy = CD1A6185CD0C881164EB325042C18C8B /* PBXContainerItemProxy */;
-		};
-		3CC4D345DB0D3721B6FF93621B79FFB2 /* PBXTargetDependency */ = {
+		6E65523C3E573D6428C283972B8E37FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BottomPopup;
-			target = 5F370691BE733848174A4B1F260CCF89 /* BottomPopup */;
-			targetProxy = E55AE4AFEC9DF431C07F673A6CA39157 /* PBXContainerItemProxy */;
+			target = 54D7C79E513DA326E6C461FB648FEBD1 /* BottomPopup */;
+			targetProxy = 03534D3D2F53A8F5805B1EC5FD562380 /* PBXContainerItemProxy */;
+		};
+		F64B1499CFB09FB600B089CEBCB9D10C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VBRRollingPit;
+			target = 05D2804E963524AFA778CB4F6B314CC0 /* VBRRollingPit */;
+			targetProxy = 1D511D0470B777FC960C9786260055B6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */ = {
+		28A07355340E2B879BFAAAAA07B83614 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -437,7 +464,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -459,184 +485,20 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		24EC49882ABDB30DEEAAB222B4EC3AF8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49D095FE3EFCE5A76548ACD53767A3DA /* Pods-lit_cpbl_b.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-lit_cpbl_b/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-lit_cpbl_b/Pods-lit_cpbl_b.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4D9CB7AD2C42C46929585B1022929CBE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE51E26593765A4E72E87EE2C2BADD33 /* VBRRollingPit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/VBRRollingPit/VBRRollingPit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VBRRollingPit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/VBRRollingPit/VBRRollingPit.modulemap";
-				PRODUCT_MODULE_NAME = VBRRollingPit;
-				PRODUCT_NAME = VBRRollingPit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		56F2D44FB5144658DBCA11A9C0B7A0F7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FAF65D674D427FCC4EE53A47EBD207DF /* BottomPopup.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BottomPopup/BottomPopup-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BottomPopup/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BottomPopup/BottomPopup.modulemap";
-				PRODUCT_MODULE_NAME = BottomPopup;
-				PRODUCT_NAME = BottomPopup;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		633B41EACE7F432225B3F1FD0160F342 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE51E26593765A4E72E87EE2C2BADD33 /* VBRRollingPit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/VBRRollingPit/VBRRollingPit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VBRRollingPit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/VBRRollingPit/VBRRollingPit.modulemap";
-				PRODUCT_MODULE_NAME = VBRRollingPit;
-				PRODUCT_NAME = VBRRollingPit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		71D8E7C406E10C89A38183DCC246EC1E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FAF65D674D427FCC4EE53A47EBD207DF /* BottomPopup.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BottomPopup/BottomPopup-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BottomPopup/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BottomPopup/BottomPopup.modulemap";
-				PRODUCT_MODULE_NAME = BottomPopup;
-				PRODUCT_NAME = BottomPopup;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CD8324D57CD462761E218EEA4EA91EC7 /* Release */ = {
+		312C22C4801ED54EF2F6B29CE946C8C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -668,7 +530,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -688,17 +549,123 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		DECE5A88A01D34BAC4278D814F7D70EF /* Release */ = {
+		35383E02873DABAB9F5E18F74181FFAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAF65D674D427FCC4EE53A47EBD207DF /* BottomPopup.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BottomPopup/BottomPopup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BottomPopup/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BottomPopup/BottomPopup.modulemap";
+				PRODUCT_NAME = BottomPopup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9A4F916B064C2ED3C9A850DFE4D808A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAF65D674D427FCC4EE53A47EBD207DF /* BottomPopup.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BottomPopup/BottomPopup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BottomPopup/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BottomPopup/BottomPopup.modulemap";
+				PRODUCT_NAME = BottomPopup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A533B76D0215123B0D9727AB2479A4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE51E26593765A4E72E87EE2C2BADD33 /* VBRRollingPit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VBRRollingPit/VBRRollingPit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VBRRollingPit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/VBRRollingPit/VBRRollingPit.modulemap";
+				PRODUCT_NAME = VBRRollingPit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA8D949D188965D31FCBC7C80DE1C934 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 01D1E79DB6969DFE4F4C46BBE8A91178 /* Pods-lit_cpbl_b.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -712,17 +679,20 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-lit_cpbl_b/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-lit_cpbl_b/Pods-lit_cpbl_b.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = Pods_lit_cpbl_b;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -730,41 +700,112 @@
 			};
 			name = Release;
 		};
+		CFA59AFBDF76B5517FB99912D3069133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE51E26593765A4E72E87EE2C2BADD33 /* VBRRollingPit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VBRRollingPit/VBRRollingPit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VBRRollingPit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/VBRRollingPit/VBRRollingPit.modulemap";
+				PRODUCT_NAME = VBRRollingPit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EBC751F1C7EB03C33D4DC7D8AC88B855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49D095FE3EFCE5A76548ACD53767A3DA /* Pods-lit_cpbl_b.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-lit_cpbl_b/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-lit_cpbl_b/Pods-lit_cpbl_b.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_lit_cpbl_b;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1F550071F4A8072D92F4C002E60AF327 /* Build configuration list for PBXNativeTarget "BottomPopup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35383E02873DABAB9F5E18F74181FFAD /* Debug */,
+				9A4F916B064C2ED3C9A850DFE4D808A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */,
-				CD8324D57CD462761E218EEA4EA91EC7 /* Release */,
+				28A07355340E2B879BFAAAAA07B83614 /* Debug */,
+				312C22C4801ED54EF2F6B29CE946C8C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		39ACF22AF18C57164A6B5D3B2F42F0A9 /* Build configuration list for PBXNativeTarget "Pods-lit_cpbl_b" */ = {
+		5CF0B11FED23FC58B12425BD91DA1E7C /* Build configuration list for PBXNativeTarget "VBRRollingPit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				24EC49882ABDB30DEEAAB222B4EC3AF8 /* Debug */,
-				DECE5A88A01D34BAC4278D814F7D70EF /* Release */,
+				A533B76D0215123B0D9727AB2479A4F3 /* Debug */,
+				CFA59AFBDF76B5517FB99912D3069133 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6DED46F3EE2D69ADDD005F33F440FEC0 /* Build configuration list for PBXNativeTarget "BottomPopup" */ = {
+		BD5CFF013FFB59AB6B6450A9F316309D /* Build configuration list for PBXNativeTarget "Pods-lit_cpbl_b" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71D8E7C406E10C89A38183DCC246EC1E /* Debug */,
-				56F2D44FB5144658DBCA11A9C0B7A0F7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		97347FF5873CE720B3B66C823F455D94 /* Build configuration list for PBXNativeTarget "VBRRollingPit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				633B41EACE7F432225B3F1FD0160F342 /* Debug */,
-				4D9CB7AD2C42C46929585B1022929CBE /* Release */,
+				EBC751F1C7EB03C33D4DC7D8AC88B855 /* Debug */,
+				CA8D949D188965D31FCBC7C80DE1C934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

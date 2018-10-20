@@ -10,7 +10,6 @@
 		69D92570E0B927DF1F7EA8D9 /* Pods_lit_cpbl_b.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4529188FDB92667D48C77336 /* Pods_lit_cpbl_b.framework */; };
 		876E816A217B50AC003F5B34 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876E8169217B50AC003F5B34 /* MapKit.framework */; };
 		876E816C217B5B73003F5B34 /* iizukaMKPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876E816B217B5B73003F5B34 /* iizukaMKPointAnnotation.swift */; };
-		877533D1217B720300926155 /* ExamplePopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877533D0217B720300926155 /* ExamplePopupViewController.swift */; };
 		DA72EC58217B4449008053E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA72EC57217B4449008053E2 /* AppDelegate.swift */; };
 		DA72EC5A217B4449008053E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA72EC59217B4449008053E2 /* ViewController.swift */; };
 		DA72EC5D217B4449008053E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA72EC5B217B4449008053E2 /* Main.storyboard */; };
@@ -18,8 +17,14 @@
 		DA72EC62217B444C008053E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA72EC60217B444C008053E2 /* LaunchScreen.storyboard */; };
 		DA72EC6A217B45FB008053E2 /* PostView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA72EC69217B45FB008053E2 /* PostView.storyboard */; };
 		DA72EC6C217B46DF008053E2 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA72EC6B217B46DF008053E2 /* PostViewController.swift */; };
-		DA72EC6E217B4791008053E2 /* ListView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA72EC6D217B4791008053E2 /* ListView.storyboard */; };
-		DA72EC70217B47A9008053E2 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA72EC6F217B47A9008053E2 /* ListViewController.swift */; };
+		DA72EC6E217B4791008053E2 /* InfoListView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA72EC6D217B4791008053E2 /* InfoListView.storyboard */; };
+		DA72EC73217B5409008053E2 /* InfoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA72EC71217B5409008053E2 /* InfoListViewController.swift */; };
+		DA72EC77217B618F008053E2 /* InfoListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA72EC75217B618F008053E2 /* InfoListTableViewCell.swift */; };
+		DA72EC78217B618F008053E2 /* InfoListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA72EC76217B618F008053E2 /* InfoListTableViewCell.xib */; };
+		DA72EC7A217B6A4D008053E2 /* InfoDetailView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA72EC79217B6A4D008053E2 /* InfoDetailView.storyboard */; };
+		DA72EC7C217B6A6C008053E2 /* InfoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA72EC7B217B6A6C008053E2 /* InfoDetailViewController.swift */; };
+		DA72EC87217B8349008053E2 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA72EC85217B8349008053E2 /* CommentTableViewCell.swift */; };
+		DA72EC88217B8349008053E2 /* CommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA72EC86217B8349008053E2 /* CommentTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +33,6 @@
 		760833901F5C38E4D19DB725 /* Pods-lit_cpbl_b.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lit_cpbl_b.release.xcconfig"; path = "Pods/Target Support Files/Pods-lit_cpbl_b/Pods-lit_cpbl_b.release.xcconfig"; sourceTree = "<group>"; };
 		876E8169217B50AC003F5B34 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		876E816B217B5B73003F5B34 /* iizukaMKPointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iizukaMKPointAnnotation.swift; sourceTree = "<group>"; };
-		877533D0217B720300926155 /* ExamplePopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ExamplePopupViewController.swift; path = /Users/w7eno2/workspace/iOS/lit_cpbl_b/lit_cpbl_b/ExamplePopupViewController.swift; sourceTree = "<absolute>"; };
 		DA72EC54217B4449008053E2 /* lit_cpbl_b.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lit_cpbl_b.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA72EC57217B4449008053E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA72EC59217B4449008053E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,8 +42,14 @@
 		DA72EC63217B444C008053E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA72EC69217B45FB008053E2 /* PostView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PostView.storyboard; sourceTree = "<group>"; };
 		DA72EC6B217B46DF008053E2 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
-		DA72EC6D217B4791008053E2 /* ListView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ListView.storyboard; sourceTree = "<group>"; };
-		DA72EC6F217B47A9008053E2 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		DA72EC6D217B4791008053E2 /* InfoListView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InfoListView.storyboard; sourceTree = "<group>"; };
+		DA72EC71217B5409008053E2 /* InfoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoListViewController.swift; sourceTree = "<group>"; };
+		DA72EC75217B618F008053E2 /* InfoListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoListTableViewCell.swift; sourceTree = "<group>"; };
+		DA72EC76217B618F008053E2 /* InfoListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoListTableViewCell.xib; sourceTree = "<group>"; };
+		DA72EC79217B6A4D008053E2 /* InfoDetailView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InfoDetailView.storyboard; sourceTree = "<group>"; };
+		DA72EC7B217B6A6C008053E2 /* InfoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDetailViewController.swift; sourceTree = "<group>"; };
+		DA72EC85217B8349008053E2 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		DA72EC86217B8349008053E2 /* CommentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,15 +107,20 @@
 				DA72EC57217B4449008053E2 /* AppDelegate.swift */,
 				DA72EC59217B4449008053E2 /* ViewController.swift */,
 				876E816B217B5B73003F5B34 /* iizukaMKPointAnnotation.swift */,
-				877533D0217B720300926155 /* ExamplePopupViewController.swift */,
 				DA72EC5B217B4449008053E2 /* Main.storyboard */,
 				DA72EC69217B45FB008053E2 /* PostView.storyboard */,
+				DA72EC71217B5409008053E2 /* InfoListViewController.swift */,
+				DA72EC75217B618F008053E2 /* InfoListTableViewCell.swift */,
+				DA72EC76217B618F008053E2 /* InfoListTableViewCell.xib */,
+				DA72EC6D217B4791008053E2 /* InfoListView.storyboard */,
+				DA72EC79217B6A4D008053E2 /* InfoDetailView.storyboard */,
+				DA72EC7B217B6A6C008053E2 /* InfoDetailViewController.swift */,
 				DA72EC6B217B46DF008053E2 /* PostViewController.swift */,
-				DA72EC6F217B47A9008053E2 /* ListViewController.swift */,
-				DA72EC6D217B4791008053E2 /* ListView.storyboard */,
-				DA72EC5E217B444C008053E2 /* Assets.xcassets */,
 				DA72EC60217B444C008053E2 /* LaunchScreen.storyboard */,
+				DA72EC5E217B444C008053E2 /* Assets.xcassets */,
 				DA72EC63217B444C008053E2 /* Info.plist */,
+				DA72EC85217B8349008053E2 /* CommentTableViewCell.swift */,
+				DA72EC86217B8349008053E2 /* CommentTableViewCell.xib */,
 			);
 			path = lit_cpbl_b;
 			sourceTree = "<group>";
@@ -122,6 +137,7 @@
 				DA72EC51217B4449008053E2 /* Frameworks */,
 				DA72EC52217B4449008053E2 /* Resources */,
 				A6F472585E459B49D5294A52 /* [CP] Embed Pods Frameworks */,
+				DFBC91285545145AD31D941E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -171,10 +187,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA72EC62217B444C008053E2 /* LaunchScreen.storyboard in Resources */,
+				DA72EC7A217B6A4D008053E2 /* InfoDetailView.storyboard in Resources */,
 				DA72EC5F217B444C008053E2 /* Assets.xcassets in Resources */,
-				DA72EC6E217B4791008053E2 /* ListView.storyboard in Resources */,
+				DA72EC6E217B4791008053E2 /* InfoListView.storyboard in Resources */,
 				DA72EC5D217B4449008053E2 /* Main.storyboard in Resources */,
 				DA72EC6A217B45FB008053E2 /* PostView.storyboard in Resources */,
+				DA72EC78217B618F008053E2 /* InfoListTableViewCell.xib in Resources */,
+				DA72EC88217B8349008053E2 /* CommentTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +215,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		A6F472585E459B49D5294A52 /* [CP] Embed Pods Frameworks */ = {
@@ -219,6 +238,25 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lit_cpbl_b/Pods-lit_cpbl_b-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DFBC91285545145AD31D941E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lit_cpbl_b/Pods-lit_cpbl_b-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -226,11 +264,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				877533D1217B720300926155 /* ExamplePopupViewController.swift in Sources */,
 				876E816C217B5B73003F5B34 /* iizukaMKPointAnnotation.swift in Sources */,
+				DA72EC73217B5409008053E2 /* InfoListViewController.swift in Sources */,
 				DA72EC6C217B46DF008053E2 /* PostViewController.swift in Sources */,
 				DA72EC5A217B4449008053E2 /* ViewController.swift in Sources */,
-				DA72EC70217B47A9008053E2 /* ListViewController.swift in Sources */,
+				DA72EC7C217B6A6C008053E2 /* InfoDetailViewController.swift in Sources */,
+				DA72EC87217B8349008053E2 /* CommentTableViewCell.swift in Sources */,
+				DA72EC77217B618F008053E2 /* InfoListTableViewCell.swift in Sources */,
 				DA72EC58217B4449008053E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,7 +419,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7BY6EQSAW4;
+				DEVELOPMENT_TEAM = N97KZ29Q5G;
 				INFOPLIST_FILE = lit_cpbl_b/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -398,7 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7BY6EQSAW4;
+				DEVELOPMENT_TEAM = N97KZ29Q5G;
 				INFOPLIST_FILE = lit_cpbl_b/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -110,15 +110,15 @@ class ViewController: UIViewController, MKMapViewDelegate {
     }
 
     
-    @IBAction func showViewControllerTapped(_ sender: UIButton) {
-        guard let popupVC = storyboard?.instantiateViewController(withIdentifier: "secondVC") as? ExamplePopupViewController else { return }
-        popupVC.height = 300
-        popupVC.topCornerRadius = 70
-        popupVC.presentDuration = 1.5
-        popupVC.dismissDuration = 1.5
-//        popupVC.shouldDismissInteractivelty = dismissInteractivelySwitch.isOn
-        present(popupVC, animated: true, completion: nil)
-    }
+//    @IBAction func showViewControllerTapped(_ sender: UIButton) {
+//        guard let popupVC = storyboard?.instantiateViewController(withIdentifier: "secondVC") as? ExamplePopupViewController else { return }
+//        popupVC.height = 300
+//        popupVC.topCornerRadius = 70
+//        popupVC.presentDuration = 1.5
+//        popupVC.dismissDuration = 1.5
+////        popupVC.shouldDismissInteractivelty = dismissInteractivelySwitch.isOn
+//        present(popupVC, animated: true, completion: nil)
+//    }
     
 
 }
