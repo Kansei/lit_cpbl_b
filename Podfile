@@ -6,6 +6,7 @@ target 'lit_cpbl_b' do
   use_frameworks!
 
   pod 'BottomPopup'
+  pod 'VBRRollingPit'
 
   # Pods for lit_cpbl_b
 

@@ -100,9 +100,9 @@
 				877533D0217B720300926155 /* ExamplePopupViewController.swift */,
 				DA72EC5B217B4449008053E2 /* Main.storyboard */,
 				DA72EC69217B45FB008053E2 /* PostView.storyboard */,
+				DA72EC6B217B46DF008053E2 /* PostViewController.swift */,
 				DA72EC6F217B47A9008053E2 /* ListViewController.swift */,
 				DA72EC6D217B4791008053E2 /* ListView.storyboard */,
-				DA72EC6B217B46DF008053E2 /* PostViewController.swift */,
 				DA72EC5E217B444C008053E2 /* Assets.xcassets */,
 				DA72EC60217B444C008053E2 /* LaunchScreen.storyboard */,
 				DA72EC63217B444C008053E2 /* Info.plist */,
@@ -207,10 +207,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-lit_cpbl_b/Pods-lit_cpbl_b-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BottomPopup/BottomPopup.framework",
+				"${BUILT_PRODUCTS_DIR}/VBRRollingPit/VBRRollingPit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BottomPopup.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VBRRollingPit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

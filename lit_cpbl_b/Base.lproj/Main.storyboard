@@ -33,6 +33,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <tabBarItem key="tabBarItem" systemItem="search" id="2vY-ux-CPb"/>
                     <navigationItem key="navigationItem" id="b7y-wD-pRn"/>
                     <connections>
                         <outlet property="iizukaMapView" destination="8sR-ri-Sc1" id="upa-fo-7OY"/>
@@ -40,7 +41,27 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1022" y="133"/>
+            <point key="canvasLocation" x="1822" y="133"/>
+        </scene>
+        <!--PostView-->
+        <scene sceneID="tKI-59-pDJ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PostView" id="ltf-vx-SNC" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="T1f-du-92b"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x6u-Rp-Ed4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="668" y="703"/>
+        </scene>
+        <!--ListView-->
+        <scene sceneID="5si-i3-wH0">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ListView" id="uPi-pd-geF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="19J-P6-Dhz"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KDf-Nd-eV5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1263" y="716"/>
         </scene>
         <!--Example Popup View Controller-->
         <scene sceneID="rSs-TD-CsG">
@@ -55,7 +76,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aaw-UI-RDo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1942" y="122"/>
+            <point key="canvasLocation" x="2880.8000000000002" y="121.88905547226388"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="wnv-re-vOT">
@@ -68,12 +89,40 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Xyp-s1-Lbc"/>
+                        <segue destination="m7r-x2-mxm" kind="relationship" relationship="rootViewController" id="Xyp-s1-Lbc"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fyt-Zn-Kc6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="273" y="133"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Il6-uE-BL0">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="m7r-x2-mxm" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="vsZ-L3-NDN"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="RQr-Aj-Kkv" customClass="RollingPitTabBar" customModule="VBRRollingPit">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="barBackColor">
+                                <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="circleBackColor">
+                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Bdi-UM-iQK"/>
+                        <segue destination="ltf-vx-SNC" kind="relationship" relationship="viewControllers" id="Z6H-Lb-iYR"/>
+                        <segue destination="uPi-pd-geF" kind="relationship" relationship="viewControllers" id="Zhh-9C-uMN"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R5Q-3b-ZV1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1021.6" y="132.68365817091455"/>
         </scene>
     </scenes>
 </document>
