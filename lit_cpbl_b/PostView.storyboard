@@ -12,7 +12,7 @@
         <!--Post View Controller-->
         <scene sceneID="F8m-F1-PjB">
             <objects>
-                <viewController id="wC4-zf-Bzs" customClass="PostViewController" customModule="lit_cpbl_b" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PostView" id="wC4-zf-Bzs" customClass="PostViewController" customModule="lit_cpbl_b" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="h5b-nq-gk8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

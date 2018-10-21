@@ -18,27 +18,31 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="8sR-ri-Sc1">
-                                <rect key="frame" x="0.0" y="64" width="375" height="375"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="X0U-Rp-rM7" appends="YES" id="dgK-kD-ibi"/>
+                                </connections>
                             </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d0p-Tf-htF">
-                                <rect key="frame" x="165" y="527" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="search" id="2vY-ux-CPb"/>
+                    <tabBarItem key="tabBarItem" selectedImage="currentPoint" systemItem="search" id="2vY-ux-CPb"/>
                     <navigationItem key="navigationItem" id="b7y-wD-pRn"/>
                     <connections>
                         <outlet property="iizukaMapView" destination="8sR-ri-Sc1" id="upa-fo-7OY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="X0U-Rp-rM7">
+                    <connections>
+                        <action selector="pressMap:" destination="BYZ-38-t0r" id="7cb-kK-SPY"/>
+                    </connections>
+                </pongPressGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1822" y="133"/>
+            <point key="canvasLocation" x="1821.5999999999999" y="132.68365817091455"/>
         </scene>
         <!--PostView-->
         <scene sceneID="tKI-59-pDJ">
@@ -60,10 +64,10 @@
             </objects>
             <point key="canvasLocation" x="1263" y="716"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail Popup View Controller-->
         <scene sceneID="rSs-TD-CsG">
             <objects>
-                <viewController storyboardIdentifier="secondVC" id="411-y6-lDT" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="secondVC" id="411-y6-lDT" customClass="DetailPopupViewController" customModule="lit_cpbl_b" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="x1B-AM-bg7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -123,4 +127,7 @@
             <point key="canvasLocation" x="1021.6" y="132.68365817091455"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="currentPoint" width="32" height="32"/>
+    </resources>
 </document>
