@@ -10,6 +10,8 @@
 		69D92570E0B927DF1F7EA8D9 /* Pods_lit_cpbl_b.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4529188FDB92667D48C77336 /* Pods_lit_cpbl_b.framework */; };
 		876E816A217B50AC003F5B34 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876E8169217B50AC003F5B34 /* MapKit.framework */; };
 		876E816C217B5B73003F5B34 /* iizukaMKPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876E816B217B5B73003F5B34 /* iizukaMKPointAnnotation.swift */; };
+		87D16409217C3D39000F13C2 /* shokai.gif in Resources */ = {isa = PBXBuildFile; fileRef = 87D16408217C3D39000F13C2 /* shokai.gif */; };
+		87D1640B217C4289000F13C2 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D1640A217C4289000F13C2 /* SplashViewController.swift */; };
 		DA6FE10F217C10BF00FABC3E /* ProfileView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA6FE10E217C10BF00FABC3E /* ProfileView.storyboard */; };
 		DA72EC58217B4449008053E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA72EC57217B4449008053E2 /* AppDelegate.swift */; };
 		DA72EC5A217B4449008053E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA72EC59217B4449008053E2 /* ViewController.swift */; };
@@ -34,6 +36,8 @@
 		760833901F5C38E4D19DB725 /* Pods-lit_cpbl_b.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lit_cpbl_b.release.xcconfig"; path = "Pods/Target Support Files/Pods-lit_cpbl_b/Pods-lit_cpbl_b.release.xcconfig"; sourceTree = "<group>"; };
 		876E8169217B50AC003F5B34 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		876E816B217B5B73003F5B34 /* iizukaMKPointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iizukaMKPointAnnotation.swift; sourceTree = "<group>"; };
+		87D16408217C3D39000F13C2 /* shokai.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = shokai.gif; path = ../../../../Desktop/shokai.gif; sourceTree = "<group>"; };
+		87D1640A217C4289000F13C2 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		DA6FE10E217C10BF00FABC3E /* ProfileView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileView.storyboard; sourceTree = "<group>"; };
 		DA72EC54217B4449008053E2 /* lit_cpbl_b.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lit_cpbl_b.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA72EC57217B4449008053E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				DA72EC57217B4449008053E2 /* AppDelegate.swift */,
+				87D1640A217C4289000F13C2 /* SplashViewController.swift */,
 				DA72EC59217B4449008053E2 /* ViewController.swift */,
 				876E816B217B5B73003F5B34 /* iizukaMKPointAnnotation.swift */,
 				DA72EC5B217B4449008053E2 /* Main.storyboard */,
@@ -121,6 +126,7 @@
 				DA72EC6B217B46DF008053E2 /* PostViewController.swift */,
 				DA72EC60217B444C008053E2 /* LaunchScreen.storyboard */,
 				DA72EC5E217B444C008053E2 /* Assets.xcassets */,
+				87D16408217C3D39000F13C2 /* shokai.gif */,
 				DA72EC63217B444C008053E2 /* Info.plist */,
 				DA72EC85217B8349008053E2 /* CommentTableViewCell.swift */,
 				DA72EC86217B8349008053E2 /* CommentTableViewCell.xib */,
@@ -193,6 +199,7 @@
 				DA72EC5F217B444C008053E2 /* Assets.xcassets in Resources */,
 				DA72EC6E217B4791008053E2 /* InfoListView.storyboard in Resources */,
 				DA72EC5D217B4449008053E2 /* Main.storyboard in Resources */,
+				87D16409217C3D39000F13C2 /* shokai.gif in Resources */,
 				DA6FE10F217C10BF00FABC3E /* ProfileView.storyboard in Resources */,
 				DA72EC6A217B45FB008053E2 /* PostView.storyboard in Resources */,
 				DA72EC78217B618F008053E2 /* InfoListTableViewCell.xib in Resources */,
@@ -229,12 +236,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-lit_cpbl_b/Pods-lit_cpbl_b-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BottomPopup/BottomPopup.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework",
 				"${BUILT_PRODUCTS_DIR}/VBRRollingPit/VBRRollingPit.framework",
 				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BottomPopup.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftGifOrigin.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VBRRollingPit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 			);
@@ -253,6 +262,7 @@
 				876E816C217B5B73003F5B34 /* iizukaMKPointAnnotation.swift in Sources */,
 				DA72EC73217B5409008053E2 /* InfoListViewController.swift in Sources */,
 				DA72EC6C217B46DF008053E2 /* PostViewController.swift in Sources */,
+				87D1640B217C4289000F13C2 /* SplashViewController.swift in Sources */,
 				DA72EC5A217B4449008053E2 /* ViewController.swift in Sources */,
 				DA72EC7C217B6A6C008053E2 /* InfoDetailViewController.swift in Sources */,
 				DA72EC87217B8349008053E2 /* CommentTableViewCell.swift in Sources */,

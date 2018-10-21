@@ -1,24 +1,28 @@
 PODS:
   - BottomPopup (0.3.1)
   - lottie-ios (2.5.2)
+  - SwiftGifOrigin (1.6.1)
   - VBRRollingPit (1.0.1)
 
 DEPENDENCIES:
   - BottomPopup
   - lottie-ios
+  - SwiftGifOrigin (~> 1.6.1)
   - VBRRollingPit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - BottomPopup
     - lottie-ios
+    - SwiftGifOrigin
     - VBRRollingPit
 
 SPEC CHECKSUMS:
   BottomPopup: 1031c8937466ca350d68e293f1d8e463e758e150
   lottie-ios: 3fef45d3fabe63e3c7c2eb603dd64ddfffc73062
+  SwiftGifOrigin: d6679d3ebe9df2e049a84bc52582635107b581f6
   VBRRollingPit: 62a79cc663aeea6a196878b3a907056617f96b6a
 
-PODFILE CHECKSUM: e77988ec75dac2166aa62fbbabc65cbc064d7943
+PODFILE CHECKSUM: 2af4f5a00672c013c8132f565cfb2d38b603f358
 
 COCOAPODS: 1.6.0.beta.2
