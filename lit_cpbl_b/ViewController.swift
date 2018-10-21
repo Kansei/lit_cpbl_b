@@ -77,6 +77,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
         
         if let test = annotation as? iizukaMKPointAnnotation {
+            
             if(test.pinColor != nil) {
         
                 //色が設定されている場合
@@ -94,6 +95,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
                 testPinView.annotation = annotation
                 testPinView.image = UIImage(named:test.pinImage)
                 testPinView.canShowCallout = true
+//                testPinView.isDraggable = true
                 
                 return testPinView
             }
@@ -104,23 +106,19 @@ class ViewController: UIViewController, MKMapViewDelegate {
         testPinView.canShowCallout = true
         testPinView.annotation = annotation
         
+        
         return testPinView
     }
     
     let newAnnotation = iizukaMKPointAnnotation()
 
     @IBAction func pressMap(_ sender: UILongPressGestureRecognizer) {
-        
         //マップビュー内のタップした位置を取得する。
         let location:CGPoint = sender.location(in: iizukaMapView)
-        
         if (sender.state == UIGestureRecognizer.State.ended){
-            
             //タップした位置を緯度、経度の座標に変換する。
             let mapPoint:CLLocationCoordinate2D = iizukaMapView.convert(location, toCoordinateFrom: iizukaMapView)
-            
             //ピンを作成してマップビューに登録する。
-//            let newAnnotation = iizukaMKPointAnnotation()
             newAnnotation.coordinate = CLLocationCoordinate2DMake(mapPoint.latitude, mapPoint.longitude)
             newAnnotation.title = "新規投稿"
             newAnnotation.pinImage = "currentPoint.png"
@@ -131,13 +129,25 @@ class ViewController: UIViewController, MKMapViewDelegate {
     }
     
     func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
+        // ロングプレス
+        let longPressGesture = UILongPressGestureRecognizer(target: self,action: #selector(ViewController.popUpDetailView(_:)))
+//        longPressGesture.delegate = self as! UIGestureRecognizerDelegate
+        // Viewに追加.
+        view.addGestureRecognizer(longPressGesture)
+        
         if (view.annotation?.title == "新規投稿") {
-            let storyboard: UIStoryboard = UIStoryboard(name: "PostView", bundle: nil)
-            let nextView = storyboard.instantiateInitialViewController()
-            present(nextView!, animated: false, completion: nil)
-            
-        }else {
-            
+                let storyboard: UIStoryboard = UIStoryboard(name: "PostView", bundle: nil)
+                let nextView = storyboard.instantiateInitialViewController()
+                present(nextView!, animated: false, completion: nil)
+                
+            }else {
+                
+            }
+    }
+    
+    //ドラッグ＆ドロップ時の呼び出しメソッド
+    @objc func popUpDetailView(_ sender: UILongPressGestureRecognizer){
+        if sender.state == .began {
             let storyboard: UIStoryboard = UIStoryboard(name: "InfoDetailView", bundle: nil)
             guard let popupVC = storyboard.instantiateViewController(withIdentifier: "InfoDetailView") as? InfoDetailViewController else { return }
             popupVC.height = 500

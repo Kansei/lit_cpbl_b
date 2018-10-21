@@ -34,7 +34,8 @@ class InfoDetailViewController: BottomPopupViewController {
     }
     
     override func shouldPopupDismissInteractivelty() -> Bool {
-        return shouldDismissInteractivelty ?? true
+//        return shouldDismissInteractivelty ?? true
+        return true
     }
     
     @IBOutlet weak var CommentTableView: UITableView!
