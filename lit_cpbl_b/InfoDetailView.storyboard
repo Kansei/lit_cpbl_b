@@ -12,7 +12,7 @@
         <!--Info Detail View Controller-->
         <scene sceneID="ThG-7A-1yF">
             <objects>
-                <viewController id="kHU-ut-fe7" customClass="InfoDetailViewController" customModule="lit_cpbl_b" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InfoDetailView" id="kHU-ut-fe7" customClass="InfoDetailViewController" customModule="lit_cpbl_b" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xqv-3Q-lbe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

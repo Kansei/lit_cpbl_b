@@ -64,10 +64,10 @@
             </objects>
             <point key="canvasLocation" x="1263" y="716"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail Popup View Controller-->
         <scene sceneID="rSs-TD-CsG">
             <objects>
-                <viewController storyboardIdentifier="secondVC" id="411-y6-lDT" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="secondVC" id="411-y6-lDT" customClass="DetailPopupViewController" customModule="lit_cpbl_b" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="x1B-AM-bg7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
