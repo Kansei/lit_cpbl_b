@@ -7,6 +7,7 @@ target 'lit_cpbl_b' do
 
   pod 'BottomPopup'
   pod 'VBRRollingPit'
+  pod 'lottie-ios'
 
   # Pods for lit_cpbl_b
 

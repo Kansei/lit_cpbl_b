@@ -129,11 +129,11 @@ class ViewController: UIViewController, MKMapViewDelegate {
     }
     
     func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
-        // ロングプレス
-        let longPressGesture = UILongPressGestureRecognizer(target: self,action: #selector(ViewController.popUpDetailView(_:)))
-//        longPressGesture.delegate = self as! UIGestureRecognizerDelegate
-        // Viewに追加.
-        view.addGestureRecognizer(longPressGesture)
+//        // ロングプレス
+//        let longPressGesture = UILongPressGestureRecognizer(target: self,action: #selector(ViewController.popUpDetailView(_:)))
+////        longPressGesture.delegate = self as! UIGestureRecognizerDelegate
+//        // Viewに追加.
+//        view.addGestureRecognizer(longPressGesture)
         
         if (view.annotation?.title == "新規投稿") {
                 let storyboard: UIStoryboard = UIStoryboard(name: "PostView", bundle: nil)
@@ -141,20 +141,26 @@ class ViewController: UIViewController, MKMapViewDelegate {
                 present(nextView!, animated: false, completion: nil)
                 
             }else {
-                
+            let storyboard: UIStoryboard = UIStoryboard(name: "InfoDetailView", bundle: nil)
+                guard let popupVC = storyboard.instantiateViewController(withIdentifier: "InfoDetailView") as? InfoDetailViewController else { return }
+                popupVC.height = 500
+                popupVC.topCornerRadius = 35
+                popupVC.presentDuration = 1.5
+                popupVC.dismissDuration = 1.5
+                present(popupVC, animated: true, completion: nil)
             }
     }
     
     //ドラッグ＆ドロップ時の呼び出しメソッド
     @objc func popUpDetailView(_ sender: UILongPressGestureRecognizer){
         if sender.state == .began {
-            let storyboard: UIStoryboard = UIStoryboard(name: "InfoDetailView", bundle: nil)
-            guard let popupVC = storyboard.instantiateViewController(withIdentifier: "InfoDetailView") as? InfoDetailViewController else { return }
-            popupVC.height = 500
-            popupVC.topCornerRadius = 35
-            popupVC.presentDuration = 1.5
-            popupVC.dismissDuration = 1.5
-            present(popupVC, animated: true, completion: nil)
+//            let storyboard: UIStoryboard = UIStoryboard(name: "InfoDetailView", bundle: nil)
+//            guard let popupVC = storyboard.instantiateViewController(withIdentifier: "InfoDetailView") as? InfoDetailViewController else { return }
+//            popupVC.height = 500
+//            popupVC.topCornerRadius = 35
+//            popupVC.presentDuration = 1.5
+//            popupVC.dismissDuration = 1.5
+//            present(popupVC, animated: true, completion: nil)
         }
     }
     
