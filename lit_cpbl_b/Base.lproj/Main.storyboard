@@ -44,21 +44,21 @@
             </objects>
             <point key="canvasLocation" x="1821.5999999999999" y="132.68365817091455"/>
         </scene>
-        <!--PostView-->
+        <!--InfoListView-->
         <scene sceneID="tKI-59-pDJ">
             <objects>
-                <viewControllerPlaceholder storyboardName="PostView" id="ltf-vx-SNC" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="T1f-du-92b"/>
+                <viewControllerPlaceholder storyboardName="InfoListView" id="ltf-vx-SNC" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="mostViewed" id="T1f-du-92b"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x6u-Rp-Ed4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="668" y="703"/>
         </scene>
-        <!--InfoListView-->
+        <!--ProfileView-->
         <scene sceneID="5si-i3-wH0">
             <objects>
-                <viewControllerPlaceholder storyboardName="InfoListView" id="uPi-pd-geF" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="19J-P6-Dhz"/>
+                <viewControllerPlaceholder storyboardName="ProfileView" id="uPi-pd-geF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="contacts" id="19J-P6-Dhz"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KDf-Nd-eV5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

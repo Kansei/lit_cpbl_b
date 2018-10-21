@@ -14,7 +14,7 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
     
@@ -38,7 +38,7 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
 //            label.text = "error"
             
         }
-        
+       
     }
     
     @IBAction func selectPhoto(_ sender: Any) {
@@ -79,4 +79,13 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
 //            label.text = "Canceled"
     }
 
+    @IBAction func tapCancelButton(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
+        
+    }
+    
+    @IBAction func tapSubmitButton(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
 }
