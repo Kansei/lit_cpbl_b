@@ -57,14 +57,12 @@ class PostViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     }
         
     //　撮影が完了時した時に呼ばれる
-    func imagePickerController(_ imagePicker: UIImagePickerController,
-                               didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]){
+    private func imagePickerController(_ imagePicker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]){
         
-        if let pickedImage = info[.originalImage]
-            as? UIImage {
+        if let pickedImage = info[.originalImage] as Optional {
             
             photoView.contentMode = .scaleAspectFit
-            photoView.image = pickedImage
+            photoView.image = pickedImage as? UIImage
             
         }
         
