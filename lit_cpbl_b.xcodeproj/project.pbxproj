@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		69D92570E0B927DF1F7EA8D9 /* Pods_lit_cpbl_b.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4529188FDB92667D48C77336 /* Pods_lit_cpbl_b.framework */; };
-		87089A0A217C021000E23235 /* DetailPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87089A09217C021000E23235 /* DetailPopupViewController.swift */; };
 		876E816A217B50AC003F5B34 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876E8169217B50AC003F5B34 /* MapKit.framework */; };
 		876E816C217B5B73003F5B34 /* iizukaMKPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876E816B217B5B73003F5B34 /* iizukaMKPointAnnotation.swift */; };
+		DA6FE10F217C10BF00FABC3E /* ProfileView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA6FE10E217C10BF00FABC3E /* ProfileView.storyboard */; };
 		DA72EC58217B4449008053E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA72EC57217B4449008053E2 /* AppDelegate.swift */; };
 		DA72EC5A217B4449008053E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA72EC59217B4449008053E2 /* ViewController.swift */; };
 		DA72EC5D217B4449008053E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA72EC5B217B4449008053E2 /* Main.storyboard */; };
@@ -32,9 +32,9 @@
 		4529188FDB92667D48C77336 /* Pods_lit_cpbl_b.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lit_cpbl_b.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		643D5CB63E76D7F7C1A8D502 /* Pods-lit_cpbl_b.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lit_cpbl_b.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lit_cpbl_b/Pods-lit_cpbl_b.debug.xcconfig"; sourceTree = "<group>"; };
 		760833901F5C38E4D19DB725 /* Pods-lit_cpbl_b.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lit_cpbl_b.release.xcconfig"; path = "Pods/Target Support Files/Pods-lit_cpbl_b/Pods-lit_cpbl_b.release.xcconfig"; sourceTree = "<group>"; };
-		87089A09217C021000E23235 /* DetailPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPopupViewController.swift; sourceTree = "<group>"; };
 		876E8169217B50AC003F5B34 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		876E816B217B5B73003F5B34 /* iizukaMKPointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iizukaMKPointAnnotation.swift; sourceTree = "<group>"; };
+		DA6FE10E217C10BF00FABC3E /* ProfileView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileView.storyboard; sourceTree = "<group>"; };
 		DA72EC54217B4449008053E2 /* lit_cpbl_b.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lit_cpbl_b.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA72EC57217B4449008053E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA72EC59217B4449008053E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -110,12 +110,12 @@
 				DA72EC59217B4449008053E2 /* ViewController.swift */,
 				876E816B217B5B73003F5B34 /* iizukaMKPointAnnotation.swift */,
 				DA72EC5B217B4449008053E2 /* Main.storyboard */,
-				87089A09217C021000E23235 /* DetailPopupViewController.swift */,
 				DA72EC69217B45FB008053E2 /* PostView.storyboard */,
 				DA72EC71217B5409008053E2 /* InfoListViewController.swift */,
 				DA72EC75217B618F008053E2 /* InfoListTableViewCell.swift */,
 				DA72EC76217B618F008053E2 /* InfoListTableViewCell.xib */,
 				DA72EC6D217B4791008053E2 /* InfoListView.storyboard */,
+				DA6FE10E217C10BF00FABC3E /* ProfileView.storyboard */,
 				DA72EC79217B6A4D008053E2 /* InfoDetailView.storyboard */,
 				DA72EC7B217B6A6C008053E2 /* InfoDetailViewController.swift */,
 				DA72EC6B217B46DF008053E2 /* PostViewController.swift */,
@@ -193,6 +193,7 @@
 				DA72EC5F217B444C008053E2 /* Assets.xcassets in Resources */,
 				DA72EC6E217B4791008053E2 /* InfoListView.storyboard in Resources */,
 				DA72EC5D217B4449008053E2 /* Main.storyboard in Resources */,
+				DA6FE10F217C10BF00FABC3E /* ProfileView.storyboard in Resources */,
 				DA72EC6A217B45FB008053E2 /* PostView.storyboard in Resources */,
 				DA72EC78217B618F008053E2 /* InfoListTableViewCell.xib in Resources */,
 				DA72EC88217B8349008053E2 /* CommentTableViewCell.xib in Resources */,
@@ -257,7 +258,6 @@
 				DA72EC87217B8349008053E2 /* CommentTableViewCell.swift in Sources */,
 				DA72EC77217B618F008053E2 /* InfoListTableViewCell.swift in Sources */,
 				DA72EC58217B4449008053E2 /* AppDelegate.swift in Sources */,
-				87089A0A217C021000E23235 /* DetailPopupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,17 +405,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7BY6EQSAW4;
+				DEVELOPMENT_TEAM = N97KZ29Q5G;
 				INFOPLIST_FILE = lit_cpbl_b/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.myself.lit-cpbl-b-18-102021";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.myself.lit-cpbl-b";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -425,17 +424,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7BY6EQSAW4;
+				DEVELOPMENT_TEAM = N97KZ29Q5G;
 				INFOPLIST_FILE = lit_cpbl_b/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.myself.lit-cpbl-b-18-102021";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.myself.lit-cpbl-b";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
