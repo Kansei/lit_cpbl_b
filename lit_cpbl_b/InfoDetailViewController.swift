@@ -10,6 +10,14 @@ import UIKit
 import BottomPopup
 
 class InfoDetailViewController: BottomPopupViewController {
+   
+    @IBOutlet weak var likeNumber: UILabel!
+    
+    @IBAction func tapLikeButton(_ sender: UIButton) {
+        var num = Int(likeNumber.text!)!
+        num += 1
+        likeNumber.text = String(num)
+    }
     
     var height: CGFloat?
     var topCornerRadius: CGFloat?
