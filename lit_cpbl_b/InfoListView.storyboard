@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="coP-Iz-Zrr">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                         </subviews>
@@ -31,6 +31,8 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="NEF-Up-tuu"/>
                     </view>
+                    <tabBarItem key="tabBarItem" systemItem="mostViewed" id="LzA-T8-lxh"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="InfoListTableView" destination="coP-Iz-Zrr" id="mdT-1I-q9E"/>
                         <segue destination="MPc-O2-r8O" kind="show" identifier="toInfoDetailViewController" id="1aM-2U-h7r"/>

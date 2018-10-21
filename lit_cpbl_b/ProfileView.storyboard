@@ -31,6 +31,8 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="gtU-3T-ljP"/>
                     </view>
+                    <tabBarItem key="tabBarItem" systemItem="contacts" id="35I-vU-8dT"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nvg-AQ-aFV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

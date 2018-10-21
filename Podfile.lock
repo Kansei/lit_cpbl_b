@@ -8,12 +8,6 @@ DEPENDENCIES:
   - lottie-ios
   - VBRRollingPit
 
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - BottomPopup
-    - lottie-ios
-    - VBRRollingPit
-
 SPEC CHECKSUMS:
   BottomPopup: 1031c8937466ca350d68e293f1d8e463e758e150
   lottie-ios: 3fef45d3fabe63e3c7c2eb603dd64ddfffc73062
@@ -21,4 +15,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: e77988ec75dac2166aa62fbbabc65cbc064d7943
 
-COCOAPODS: 1.6.0.beta.2
+COCOAPODS: 1.2.1
