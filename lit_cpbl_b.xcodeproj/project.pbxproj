@@ -26,6 +26,7 @@
 		DA72EC7C217B6A6C008053E2 /* InfoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA72EC7B217B6A6C008053E2 /* InfoDetailViewController.swift */; };
 		DA72EC87217B8349008053E2 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA72EC85217B8349008053E2 /* CommentTableViewCell.swift */; };
 		DA72EC88217B8349008053E2 /* CommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA72EC86217B8349008053E2 /* CommentTableViewCell.xib */; };
+		DA81E725217C3EA600634BB7 /* RollingTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA81E724217C3EA600634BB7 /* RollingTabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		DA72EC7B217B6A6C008053E2 /* InfoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDetailViewController.swift; sourceTree = "<group>"; };
 		DA72EC85217B8349008053E2 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
 		DA72EC86217B8349008053E2 /* CommentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentTableViewCell.xib; sourceTree = "<group>"; };
+		DA81E724217C3EA600634BB7 /* RollingTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollingTabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				DA72EC59217B4449008053E2 /* ViewController.swift */,
 				876E816B217B5B73003F5B34 /* iizukaMKPointAnnotation.swift */,
 				DA72EC5B217B4449008053E2 /* Main.storyboard */,
+				DA81E724217C3EA600634BB7 /* RollingTabBarViewController.swift */,
 				DA72EC69217B45FB008053E2 /* PostView.storyboard */,
 				DA72EC71217B5409008053E2 /* InfoListViewController.swift */,
 				DA72EC75217B618F008053E2 /* InfoListTableViewCell.swift */,
@@ -273,6 +276,7 @@
 				876E816C217B5B73003F5B34 /* iizukaMKPointAnnotation.swift in Sources */,
 				DA72EC73217B5409008053E2 /* InfoListViewController.swift in Sources */,
 				DA72EC6C217B46DF008053E2 /* PostViewController.swift in Sources */,
+				DA81E725217C3EA600634BB7 /* RollingTabBarViewController.swift in Sources */,
 				DA72EC5A217B4449008053E2 /* ViewController.swift in Sources */,
 				DA72EC7C217B6A6C008053E2 /* InfoDetailViewController.swift in Sources */,
 				DA72EC87217B8349008053E2 /* CommentTableViewCell.swift in Sources */,

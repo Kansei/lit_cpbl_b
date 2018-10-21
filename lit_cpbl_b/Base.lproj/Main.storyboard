@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Map-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="lit_cpbl_b" customModuleProvider="target" sceneMemberID="viewController">
@@ -29,7 +29,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" selectedImage="currentPoint" systemItem="search" id="2vY-ux-CPb"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="baseline_map_black_24pt" selectedImage="baseline_map_black_24pt" id="2vY-ux-CPb"/>
                     <navigationItem key="navigationItem" id="b7y-wD-pRn"/>
                     <connections>
                         <outlet property="iizukaMapView" destination="8sR-ri-Sc1" id="upa-fo-7OY"/>
@@ -58,7 +58,7 @@
         <scene sceneID="5si-i3-wH0">
             <objects>
                 <viewControllerPlaceholder storyboardName="ProfileView" id="uPi-pd-geF" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="contacts" id="19J-P6-Dhz"/>
+                    <tabBarItem key="tabBarItem" selectedImage="baseline_face_black_36pt" systemItem="contacts" id="19J-P6-Dhz"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KDf-Nd-eV5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -97,22 +97,23 @@
             </objects>
             <point key="canvasLocation" x="273" y="133"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Rolling Tab Bar View Controller-->
         <scene sceneID="Il6-uE-BL0">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="m7r-x2-mxm" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="m7r-x2-mxm" customClass="RollingTabBarViewController" customModule="lit_cpbl_b" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="vsZ-L3-NDN"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="RQr-Aj-Kkv" customClass="RollingPitTabBar" customModule="VBRRollingPit">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="barBackColor">
-                                <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="value" red="0.090196078431372548" green="0.72549019607843135" blue="0.47058823529411764" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </userDefinedRuntimeAttribute>
                             <userDefinedRuntimeAttribute type="color" keyPath="circleBackColor">
-                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="value" red="0.62044268849999995" green="0.7301748991" blue="0.67842704060000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </tabBar>
@@ -128,6 +129,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="currentPoint" width="32" height="32"/>
+        <image name="baseline_face_black_36pt" width="36" height="36"/>
+        <image name="baseline_map_black_24pt" width="24" height="24"/>
     </resources>
 </document>
