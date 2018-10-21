@@ -78,8 +78,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         
         if let test = annotation as? iizukaMKPointAnnotation {
             if(test.pinColor != nil) {
-                
-                print("色の設定")
+        
                 //色が設定されている場合
                 let testPinView = MKPinAnnotationView()
                 testPinView.annotation = annotation
@@ -90,7 +89,6 @@ class ViewController: UIViewController, MKMapViewDelegate {
                 
             } else if(test.pinImage != nil) {
                 
-                print("画像の設定")
                 //画像が設定されている場合
                 let testPinView = MKAnnotationView()
                 testPinView.annotation = annotation
@@ -108,7 +106,29 @@ class ViewController: UIViewController, MKMapViewDelegate {
         
         return testPinView
     }
+    
+    let newAnnotation = iizukaMKPointAnnotation()
 
+    @IBAction func pressMap(_ sender: UILongPressGestureRecognizer) {
+        
+        //マップビュー内のタップした位置を取得する。
+        let location:CGPoint = sender.location(in: iizukaMapView)
+        
+        if (sender.state == UIGestureRecognizer.State.ended){
+            
+            //タップした位置を緯度、経度の座標に変換する。
+            let mapPoint:CLLocationCoordinate2D = iizukaMapView.convert(location, toCoordinateFrom: iizukaMapView)
+            
+            //ピンを作成してマップビューに登録する。
+//            let newAnnotation = iizukaMKPointAnnotation()
+            newAnnotation.coordinate = CLLocationCoordinate2DMake(mapPoint.latitude, mapPoint.longitude)
+            newAnnotation.title = "新規投稿"
+            newAnnotation.pinImage = "currentPoint.png"
+            newAnnotation.subtitle = "新しく飯塚の良いところを投稿しよう！"
+            iizukaMapView.addAnnotation(newAnnotation)
+            
+        }
+    }
     
 //    @IBAction func showViewControllerTapped(_ sender: UIButton) {
 //        guard let popupVC = storyboard?.instantiateViewController(withIdentifier: "secondVC") as? ExamplePopupViewController else { return }
